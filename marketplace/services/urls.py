@@ -1,6 +1,6 @@
 from django.conf.urls import url
 from . import views
-from apps import categories, products,  vendors, orders, carts
+from services.apps import categories, products,  vendors, orders, carts
 
 urlpatterns = [
     url(r'^$', views.index, name = 'index'),
