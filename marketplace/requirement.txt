@@ -1,0 +1,7 @@
+django
+djangorestframework
+django-filter
+cryptography
+psycopg2
+uwsgi
+Pillow
