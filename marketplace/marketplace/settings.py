@@ -132,4 +132,4 @@ MEDIA_URL =  '/uploader/'
 
 MEDIA_ROOT = '/Users/yangli/tmp/'
 
-KEY_STORE_FILE = 'D:/tmp/keystore.txt'
+KEY_STORE_FILE = os.path.join(BASE_DIR, 'keystore.txt')
